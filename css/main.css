@@ -3683,7 +3683,7 @@ tbody.collapse.in {
   min-height: 60px;
   margin-bottom: 17px;
   border: 1px solid transparent;
-  font-family: calibri; }
+  /*font-family: calibri;*/ }
   .navbar:before, .navbar:after {
     content: " ";
     display: table; }
