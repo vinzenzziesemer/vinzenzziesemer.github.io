@@ -3682,8 +3682,7 @@ tbody.collapse.in {
   position: relative;
   min-height: 60px;
   margin-bottom: 17px;
-  border: 1px solid transparent;
-  /*font-family: calibri;*/ }
+  border: 1px solid transparent; }
   .navbar:before, .navbar:after {
     content: " ";
     display: table; }
@@ -5815,13 +5814,13 @@ body {
           flex-direction: column; }
 
 .topline {
-  border-top: 5px #3339ab solid; }
+  border-top: 10px #3339ab solid; }
 
 .navfontsize {
   font-size: 16px; }
 
 .content {
-  margin-top: 66px;
+  margin-top: 90px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1; }
@@ -5878,6 +5877,93 @@ body {
   opacity: 1;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg); }
+
+.navbar-collapse.in {
+  border-color: #e7e7e7;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #e7e7e7; }
+
+.navbar .navbar-nav {
+  display: inline-block; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+.navbar-header,
+.navbar-brand {
+  width: 100%;
+  text-align: center; }
+
+.navbar-brand {
+  height: 40px; }
+
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0; }
+
+.navbar {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
+
+.nav > li {
+  position: relative;
+  display: inline-block; }
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent; }
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin: 0; }
+
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none; } }
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px; } }
+.pagestyler {
+  margin-top: 65px; }
+
+.head-image {
+  width: 250px;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  margin: 40px 0 30px 0; }
+
+.contact-icons {
+  width: 160px;
+  margin: 0 auto 20px; }
+
+.email {
+  display: block;
+  float: left;
+  width: 40px;
+  height: auto;
+  overflow: hidden; }
+
+.tel, .linkedin {
+  display: block;
+  float: left;
+  width: 40px;
+  height: auto;
+  margin-left: 20px;
+  overflow: hidden; }
+
+#email-icon:hover path {
+  fill: #3339ab; }
+
+#tel-icon:hover path {
+  fill: #3339ab; }
+
+#linkedin-icon:hover path {
+  fill: #3339ab; }
 
 .panel-custom {
   background-color: #f5f5f5;
