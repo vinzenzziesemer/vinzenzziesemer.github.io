@@ -5968,3 +5968,9 @@ body {
     display: table; }
   .panel-body-custom:after {
     clear: both; }
+
+.fz-media-padding {
+  padding: 0px 15px; }
+
+.fz-page-bottom-margin {
+  margin-bottom: 150px; }
